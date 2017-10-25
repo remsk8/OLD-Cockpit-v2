@@ -30,6 +30,9 @@
             <element name="company"/>
         </index>
         <index name="index2">
+            <element name="id"/>
+        </index>
+        <index name="index3">
             <element name="sid"/>
         </index>
     </element>
