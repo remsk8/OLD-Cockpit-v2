@@ -21,10 +21,11 @@
         <element label="Raise Time" max_length="40" name="raise_time" type="glide_date_time"/>
         <element label="Severity" max_length="40" name="severity" type="string"/>
         <element label="Severity Code" max_length="40" name="severity_code" type="integer"/>
-        <element label="Sid" max_length="32" name="sid" reference="cmdb_ci_appl_sap_system" type="reference"/>
+        <element label="Sid" max_length="32" name="sid" type="string"/>
         <element label="SubsystemID" max_length="100" name="subsystemid" type="string"/>
         <element label="Target" max_length="100" name="target" type="string"/>
         <element label="ToClear" max_length="40" name="toclear" type="boolean"/>
+        <element label="Type" max_length="40" name="type" type="string"/>
         <element label="User" max_length="100" name="user" type="string"/>
         <index name="index">
             <element name="company"/>
